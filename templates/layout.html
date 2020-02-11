@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Demo</title>
+</head>
+<body>
+<nav>
+    <a href="{{url_for('home_page')}}">Home</a> | <a href="{{url_for('contact_page')}}">Contact Page</a>
+</nav>
+{% block body_content %}
+{% endblock %}
+</body>
+</html>
